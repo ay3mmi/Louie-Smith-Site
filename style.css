@@ -3,13 +3,27 @@ margin: 0;
 padding: 0;
 font-family: 'Montserrat', arial,sans-serif;}
 .tamanho{
+
     width: 160px;
+    position: relative;
+    left: 10vh;
 }
 .Fonte{
     font-family: 'Montserrat', arial,sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: black; 
+    color: black;
+}
+#possiçao2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 100vh;
+}
+#fonte3{
+    font-size: 25px;
+    position: relative;
+    left: 10vh;
 }
 #possiçao{
     display: flex;  
@@ -26,4 +40,9 @@ font-family: 'Montserrat', arial,sans-serif;}
     background-image: url(img/author.jpg);
     height: 963px;
     background-repeat: no-repeat;
+    background-position: center;
+}
+li{
+position: relative;
+left: 10vh;
 }
