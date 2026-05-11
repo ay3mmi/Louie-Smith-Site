@@ -1,8 +1,29 @@
 *{box-sizing: border-box;
 margin: 0;
 padding: 0;
-font-family: 'Montserrat', arial,sans-serif;
-font-size: 16px;
-font-weight: 300;
-
+font-family: 'Montserrat', arial,sans-serif;}
+.tamanho{
+    width: 160px;
+}
+.Fonte{
+    font-family: 'Montserrat', arial,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black; 
+}
+#possiçao{
+    display: flex;  
+    flex-wrap: nowrap;
+}
+.fonte2{
+    font-weight: 300;
+    font-size: 24px;
+}
+.cor{
+    color: rgb(212, 185, 134);
+}
+#imagem{
+    background-image: url(img/author.jpg);
+    height: 963px;
+    background-repeat: no-repeat;
 }
