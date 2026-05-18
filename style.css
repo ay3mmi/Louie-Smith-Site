@@ -140,3 +140,18 @@ footer{
     font-weight: 600;
     color: white;
 }
+.sec3{
+    object-fit: cover;
+    display: flex;
+    margin-top: 20vh;
+    margin-left: -19vh;
+    height: 90px;
+
+}
+.sec4{
+    object-fit: cover;
+    display: flex;
+    margin-top: 29vh;
+    margin-left: -35vh;
+    height: 90px;
+}
