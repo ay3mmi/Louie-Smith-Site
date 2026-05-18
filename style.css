@@ -118,8 +118,8 @@ font-family: 'Montserrat', arial,sans-serif;}
     display: flex;
     margin-top: 10vh;
     margin-left: 50vh;
-    height: 400px;
     height: 200px;
+    width: 40px;
 }
 footer{
     display: flex;
