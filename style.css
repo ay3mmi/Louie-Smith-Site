@@ -140,7 +140,7 @@ footer{
     font-weight: 600;
     color: white;
 }
-.sec3{
+.foo1{
     object-fit: cover;
     display: flex;
     margin-top: 20vh;
@@ -148,7 +148,7 @@ footer{
     height: 90px;
 
 }
-.sec4{
+.foo2{
     object-fit: cover;
     display: flex;
     margin-top: 29vh;
