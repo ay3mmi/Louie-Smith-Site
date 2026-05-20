@@ -2,6 +2,10 @@
 margin: 0;
 padding: 0;
 font-family: 'Montserrat', arial,sans-serif;}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
 .tamanho{
   
     object-fit: cover;
@@ -11,11 +15,16 @@ font-family: 'Montserrat', arial,sans-serif;}
     margin: 0 auto;
     margin-bottom: 10px;
 }
+li{
+    list-style-type: none;
+}
 .Fonte{
     display: flex;
+    margin-top: 3vh;
     margin-left: 15vh;
     font-size: 16px;
-    color: black;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Montserrat', arial,sans-serif;
 }
 #fonte3{
     font-size: 24px;
@@ -35,9 +44,29 @@ font-family: 'Montserrat', arial,sans-serif;}
 
 .baixo{
     display: flex;
-    margin-top: 40vh;
+    margin-top: 35vh;
     margin-left: 15vh;
     z-index: 3;
+    color: rgba(0, 0, 0, 0.8);
+}
+.form{
+    font-weight: 400;
+    padding-right: 40px;
+    background: #fff;
+    border: 1px solid;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    border-color: #ece4d5;
+    height: 52px;
+    box-shadow: none;
+    text-align: center;
+}
+.icone_aviao{
+    object-fit: cover;
+    display: flex;
+    margin-left:28vh;
+    margin-top: -4.5vh;
+    height: 30px;
 }
 #cor{
     font-size: 24px;
@@ -154,4 +183,60 @@ footer{
     margin-top: 29vh;
     margin-left: -35vh;
     height: 90px;
+}
+.lado{
+    display: flex;
+    margin-top: 9.3vh;
+    margin-left: 15vh;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.linha{
+    display: flex;
+    margin-top: 20vh;
+    margin-left: -13vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 0px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.linha2{
+    display: flex;
+    margin-left: -13vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 0px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.linha3{
+    display: flex;
+    margin-left: -13vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 0px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.linha4{
+    display: flex;
+    margin-left: -13vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 0px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.linha5{
+    display: flex;
+    margin-left: -13vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 0px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.cores{
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
 }
